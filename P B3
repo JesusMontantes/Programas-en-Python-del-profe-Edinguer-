@@ -1,0 +1,167 @@
+B3
+
+# P1 Bloque 3 
+# Introducción al ciclo "for"
+# Fecha: 2024/11/04
+# Realizado por: Jesus Ismael Montantes Castillo
+
+lista_num = [10, 30, 40, 20, 35, 80]
+print(lista_num[0])
+print(lista_num[1])
+print(lista_num[2])
+print(lista_num[3])
+print(lista_num[4])
+print(lista_num[5])
+
+for i in lista_num:
+    print(i)
+
+# P2 Bloque 3 
+# Nombres con ciclo for
+# Fecha: 2024/11/04
+# Realizado por: Jesus Ismael Montantes Castillo
+
+Nombres = ["Luis", "Chuy", "Mauricio"]
+for nombre in Nombres:
+    print("El nombre es: ", nombre)
+
+# P3 Bloque 3 
+# FF (Frutas For)
+# Fecha: 22024/11/04
+# Realizado por: Jesus Ismael Montantes Castillo
+frutas =["Manzana", "Piña","Platano"]
+for fruta in frutas:
+    print("La fruta es:", fruta)
+
+# P4 Bloque 3  
+# Función Range
+# Fecha: 2024/11/04
+# Realizado por: Jesus Ismael Montantes Castillo
+print("Imprime los valores del 0 al 9")
+x = range(10)
+for num in x:
+    print(num)
+
+print("Imprime los valores del 5 al 15")
+x1 = range(5,16)
+for num in x1:
+    print(num)
+
+print("Imprime los pares del 10 al 20")
+x2 = range(10,21,2)
+for num in x2:
+    print(num)
+
+print("Imprime los impares del 10 al 20")
+x3 = range(11,22,2)
+for num in x3:
+    print(num)
+
+# P6 Bloque 3 
+# Froot Loops
+# Fecha: 2024/11/05
+# Realizado por: Jesus Ismael Montantes Castillo
+print("THE COUNT PATTERN")
+letras = ["a", "b", "c", "d", "e"]
+contador = 0 #Inicializar una variable
+for letra in letras:
+    contador = contador +1
+    print("La lista \"letras\" tiene",contador, "letras")
+
+# P7 Bloque 3 
+# The sum Pattern
+# Fecha: 2024/11/05
+# Realizado por: Jesus Ismael Montantes Castillo
+print("THE SUM PATTERN")
+numeros = [100,200,300,400]
+sumatoria = 0 # Inicialización
+for numero in numeros:
+    sumatoria = sumatoria + numero
+print("La sumatoria es:", sumatoria)
+
+# P8 Bloque 3  
+# THE ACCUMULATION PATTERN
+# Fecha: 2024/11/05
+# Realizado por: Jesus Ismael Montantes Castillo
+palabras = ["Hoy"," ","hace"," ","frio"]
+mensaje = ""
+for palabra in palabras:
+    mensaje = mensaje + palabra
+    print(mensaje)
+
+# P9 Bloque 3  
+# Programa ue permita crear una lista de todos los numeros menores a 50
+# Fecha: 2024/11/06
+# Realizado por: Jesus Ismael Montantes Castillo
+
+print("THE FILTER PATTERN")
+numeros =[10,50,25,13,10,28,100,500,29,29]
+menores_50 = [] #Crea un vector o lista vacía
+for numero in numeros:
+    if numero < 50:
+        menores_50.append(numero)
+
+
+print("La lista original es: ",numeros)
+print("La nueva lista es: ",menores_50)
+
+P10 Bloque 3
+#Pgrama que clasifica las edad de una lista en los sig grupos:
+# menores de 18, entre 18 y 65 y mayores de 65
+#Fecha: 2024/11/07
+#Realizado por: Jesus Ismael Montantes Castillo
+edades = [10, 15, 18, 8, 36, 5, 67, 89 ,95, 43, 26, 10, 65, 55, 81, 90]
+menores_18 = [] # Lista vaciÃ¡ para menores de 18
+adultos = [] # Lista vaciÃ¡ para adultosentre 18 y 65
+mayores_65 = [] # Lista vacia para mayores de 65
+
+for edad in edades:
+    if edad < 18:
+        menores_18.append(edad)
+    elif edad >= 18 and edad <= 65:
+        adultos.append(edad)
+    else: mayores_65.append(edad)
+
+
+print("La lista de edades es: ",edades)
+print("La lista de menores es: ",menores_18)
+print("La lista de adultos es: ",adultos)
+print("La lista de mayores a 65 es: ",mayores_65)
+
+#P11 Bloque 3 
+#Programa que demuestra el uso de los comandos \"break\" y \"continue\"
+#Fecha: 2024/11/08
+#Realizado por: Jesus Ismael Montantes Castillo 
+
+i = 1
+while i <= 10:
+    if i == 5:
+        continue
+    print (i)
+    i += 1 # Equivalente a i = i + 1
+print("Fin del programa")
+
+#P12 Bloque 3
+# Programa para demostrar el funcionamiento de los métodos upper() y lowe()
+#Fecha: 2024/11/08
+# Realizado por: Jesus Ismael Montantes Castillo
+
+# Definir cadena de texto.
+cadena = "Python es un lenguaje de programación"
+print("\n", cadena)
+cadena_mayusculas = cadena.upper() # Convierte cadena a mayusculas
+print("\n", cadena_mayusculas)
+cadena_minusculas = cadena.lower() # Convierte la cadena a minusculas
+print("\n", cadena_minusculas)
+
+# P13 Bloque 3 
+# Programa que se repute hasta que ingrese la palabra "salir"
+# Fecha: 2024/11/08
+# Realizado por: Jesus Ismael Montantes Castillo
+
+palabra =""
+while palabra != "salir":
+    palabra = input("Ingrese una palabra: ")
+    print("Usted ingreso: ",palabra)
+    print("Ingresa la palabra 'salir' paraterminar el programa")
+print("Fin del programa")
