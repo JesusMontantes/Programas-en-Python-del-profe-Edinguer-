@@ -33,16 +33,17 @@ print("La multiplicacion de esos  numeros da como resultado: "+ str(multi))
 print("La division de esos  numeros da como resultado: "+ str(div))
 
 print("Ejercicio 1_6 calcular el area de un triangulo")
+
 #Fecha: 2024/10/15
-# Realizado por: Jesus Ismael Montantes Catillo
+#Realizado por: Jesus Ismael Montantes Catillo
 base = float(input("Cuanto mide la base: "))
 altura= float(input("Cuanto mide la altura: "))
 area = base * altura / 2
 print("El area de este triangulo es: "+ str(area))
 
-# Programa  calcula el area y el perimetro de un circulo ingresando el valor del radio por el usuario.
-# Fecha: 2024/10/15
-# Realizado por: Jesus Ismael MOntantes Castillo
+#Programa  calcula el area y el perimetro de un circulo ingresando el valor del radio por el usuario.
+#Fecha: 2024/10/15
+#Realizado por: Jesus Ismael MOntantes Castillo
 radio = float(input("Ingresa el valor del radio: "))
 area = 3.1416 * radio ** 2
 perimetro = 3.1416 * 2 * radio
@@ -50,9 +51,9 @@ print("El area del circulo es: "+str(area))
 
 print("El perimetro del circulo es: "+str(perimetro))
 
-# Programa ue calculael numero de minutos, horas y meses, dado el numero de dias por el usuario
-# Fecha: 16/10/2024
-# Realizado  por: Jesus Ismael Montantes Castillo
+#Programa ue calculael numero de minutos, horas y meses, dado el numero de dias por el usuario
+#Fecha: 16/10/2024
+#Realizado  por: Jesus Ismael Montantes Castillo
 dias = int(input("Digite la cantidad de dias: "))
 horas = dias * 24
 min = horas * 60
@@ -61,17 +62,17 @@ print("La cantidad de horas en esos dias es: "+str(horas))
 print("La cantidad de minutos en esas horas es: "+str(min))
 print("La cantidad de meses en esos dias es: "+str(meses))
 
-# P9: Variables
-# Fecha de elaboracion: 2024/10/17
-# Realizado por: Jesus Ismael Montantes Castillo
+#P9: Variables
+#Fecha de elaboracion: 2024/10/17
+#Realizado por: Jesus Ismael Montantes Castillo
 num = 38
 print(num)
 num = num + 2
 print(num)
 
-# Programa que utiliza el UNICODE
-# Fecha 2024/10/17
-# Realizado por: Jesus Ismael Montantes Castillo
+#Programa que utiliza el UNICODE
+#Fecha 2024/10/17
+#Realizado por: Jesus Ismael Montantes Castillo
 print("Codigo para poner una cara triste: =\u2639")
 print(" \u2639")
 print("Codigo para poner un gato: \u1F431")
@@ -83,9 +84,9 @@ print("Resultado: \u2332")
 print("Codigo para poner un carácter chino: \u3dd7")
 print("Resultado: \u3dd7")
 
-# Programa para analizar los operadores de comparacion "==, !!=, >=, <=, >, <"
-# Fecha 2024/10/18
-# Realizado por: Jesus Ismael Montnates Castillo 
+#Programa para analizar los operadores de comparacion "==, !!=, >=, <=, >, <"
+#Fecha 2024/10/18
+#Realizado por: Jesus Ismael Montnates Castillo 
 
 
 print("Operador ==:")
@@ -113,9 +114,9 @@ print(10 < 20)
 print(20 < 5)
 print(40.0 < 40)
 
-# Programa para mandar a mi hermanito a la tienda (Tablas de verdad)
-# Fecha 2024/10/18
-# Realizado por: Jesus Ismael Montantes Castillo 
+#Programa para mandar a mi hermanito a la tienda (Tablas de verdad)
+#Fecha 2024/10/18
+#Realizado por: Jesus Ismael Montantes Castillo 
 
 print("Compuerta OR")
 print(False or False)
@@ -131,17 +132,17 @@ print(True and True)
 
 #B1
 
-# P1 Boque 1 
-# Demostrar el funcionamiento de la compuerta NOT
-# Fecha: 2024/10/22
-# Realizado por: Jesus Ismael Montantes Castillo 
+#P1 Boque 1 
+#Demostrar el funcionamiento de la compuerta NOT
+#Fecha: 2024/10/22
+#Realizado por: Jesus Ismael Montantes Castillo 
 print(not true) #Imprime FALSE
 print(not false) # Imprime True
 
-# P2 Bloque 1 
-# Chorchis and Choto party
-# Fecha: 2024/10/22
-# Realizado por: Jesus Ismael Montantes Castillo
+#P2 Bloque 1 
+#Chorchis and Choto party
+#Fecha: 2024/10/22
+#Realizado por: Jesus Ismael Montantes Castillo
 # | A | B || not( A or B) |
 # | 0 | 0 || 1
 #-----------------------------
@@ -152,24 +153,24 @@ print(not(False or True))  # NO hay fiesta.
 print(not(True or False))  # NO hay fiesta.
 print(not(True or True))  # NO hay fiesta.
 
-# P3 Bloque 1
-# Comprueba el funcionamiento de la adición
-# CONCATENACIÓN de variascadenas de texto (String)
-# Fecha: 2024/10/22
-# Realizado por: Jesus Ismael Montantes Castillo
+#P3 Bloque 1
+#Comprueba el funcionamiento de la adición
+#CONCATENACIÓN de variascadenas de texto (String)
+#Fecha: 2024/10/22
+#Realizado por: Jesus Ismael Montantes Castillo
 print("Mi"+ "nombre"+ "es" "Edinguer")
 
-# P4 Bloque 1
-# Programa que calcula los impuestos de un valor e imprime.
-# Fecha: 2024/10/22
-# Realizado por: Jesus Ismael Montantes Castillo
+#P4 Bloque 1
+#Programa que calcula los impuestos de un valor e imprime.
+#Fecha: 2024/10/22
+#Realizado por: Jesus Ismael Montantes Castillo
 valor = float(input("Digite el valor para calcular el iva: ""\nEl valor con iva es: "+str(iva)))
 iva = valor * 0.16
 
-# P5 Bloque 1
-# Práctica de comparación, Membership, slicing e indexado.
-# Fecha: 2024/10/23
-# Realizado por: Jesus Ismael Montantes Castillo 
+#P5 Bloque 1
+#Práctica de comparación, Membership, slicing e indexado.
+#Fecha: 2024/10/23
+#Realizado por: Jesus Ismael Montantes Castillo 
 print("COMPARACIÓN:")
 print("Perro"=="Perro") #True
 print("Perro"!="Gato") #True
@@ -199,20 +200,20 @@ print(word[1:-1])
 print(word[-3: ])
 print(word[:3])
 
-# P7 Bloque 1 
-# colicite la edad e indique si puede entrar a un bar.
-#  Fecha: 2024/10/24
-# Realizado por: Jesus Ismael Montantes Castillo
+#P7 Bloque 1 
+#colicite la edad e indique si puede entrar a un bar.
+#Fecha: 2024/10/24
+#Realizado por: Jesus Ismael Montantes Castillo
 edad = int(input("ingresar tu edad: "))
 if edad >= 18:
     print("Entras")
 else:
     print("No entras")
 
-# P8 Bloque 1
-# Que calcula el promedio de 5 unidades e indique si aprobó la materia
-# Fecha: 202/10/24
-# Realizado: Jesus Ismael Montantes Castillo
+#P8 Bloque 1
+#Que calcula el promedio de 5 unidades e indique si aprobó la materia
+#Fecha: 202/10/24
+#Realizado: Jesus Ismael Montantes Castillo
 calf1 = float(input("Digite su calf en una escala del 1 al 100 de la U1: "))
 calf2 = float(input("Digite su calf en una escala del 1 al 100 de la U2: "))
 calf3 = float(input("Digite su calf en una escala del 1 al 100 de la U3: "))
@@ -231,10 +232,10 @@ precio = art * 45
 if art <= 3:
         print("El costode esos articulos es  ")
 
-# P10 Bloque 1 
-# Revisar si puedes ver una pelicula en netflix. (IF ANIDADOS)
-# Fecha: 2024/10/25
-# Realizado por: Jesus Ismael Montantes Castollo
+#P10 Bloque 1 
+#Revisar si puedes ver una pelicula en netflix. (IF ANIDADOS)
+#Fecha: 2024/10/25
+#Realizado por: Jesus Ismael Montantes Castollo
 edad = int(input("Digite su edad: "))
 
 
@@ -251,10 +252,10 @@ if edad <= 17:
 
 B2
 
-# P1 Bloque 2 
-# Mascotas
-# Fecha: 28/10/2024
-# Realizado por: Jesus Ismael Montantes castillo
+#P1 Bloque 2 
+#Mascotas
+#Fecha: 28/10/2024
+#Realizado por: Jesus Ismael Montantes castillo
 
 mascota= input("Ingresa el tipo de mascota que tienes: ")
 if "perro"in mascota:
@@ -265,10 +266,10 @@ else:
     print("Tipo de mascota desconocida")
     print("¡Gracias por usar nuestro programa!")
 
-# P2 Bloque 2
-# indique si, de 2 enteros ingresados el primero es mayor,igual o menos que el segundo
-# Fecha: 2024/10/28
-# Realizado por: Jesus Ismael Montantes Castillo
+#P2 Bloque 2
+#indique si, de 2 enteros ingresados el primero es mayor,igual o menos que el segundo
+#Fecha: 2024/10/28
+#Realizado por: Jesus Ismael Montantes Castillo
 
 n1 = int(input("Digite el primer numero en numeros enteros: "))
 n2 = int(input("Digite el segundo numero en numeros enteros: "))
@@ -282,20 +283,20 @@ else:
 
     print("¡Gracias por usar nuestro programa!")
 
-# P3 Bloque 2 
-# Identificacion de tipos de datos, str, int y float
-# Fecha: 28/10/2024
-# Realizado por: Jesus Ismael Montantes Castillo
+#P3 Bloque 2 
+#Identificacion de tipos de datos, str, int y float
+#Fecha: 28/10/2024
+#Realizado por: Jesus Ismael Montantes Castillo
 Variable = input("Digite su edad: ")
 print(type(Variable))
 Variable = int (Variable) # Convierto la variable a tipo entero.
 Variable= float(Variable) # Convierto la variable a tipo flotante.
 print(type(Variable))
 
-# P4 Bloque 2 
-# calcule los impuestos que debe pagar un empleado
-# Fecha: 2024/10/29
-# Realizado  por: Jesus Ismael Montantes Castollo
+#P4 Bloque 2 
+#calcule los impuestos que debe pagar un empleado
+#Fecha: 2024/10/29
+#Realizado  por: Jesus Ismael Montantes Castollo
 
 ingresos = input("¿Cuales son sus ingresos? ")
 ingresos = float(ingresos)
@@ -313,10 +314,10 @@ else:
     salario_total = ingresos - impuestos
     print("Tus impuestos son "+str(impuestos) + "y tu salario final es" +str(salario_total))
 
-# P5 Bloque 2
-# calcule el desempeño deun estudiante de acuerdo con su calificacion dada por el usuario
-# Fecha: 2024/10/29
-# Realizado: Jesus Ismael Montantes Castillo 
+#P5 Bloque 2
+#calcule el desempeño deun estudiante de acuerdo con su calificacion dada por el usuario
+#Fecha: 2024/10/29
+#Realizado: Jesus Ismael Montantes Castillo 
 calificacion = int(input("Digite su calificación en escala del 1 al 100: "))
 if calificacion <= 60 and calificacion <= 69: 
     print("Su calificación es insuficiente")
@@ -334,10 +335,10 @@ print(["Manzana","Piña", "Naranja"])
 print("\nLista de booleanos")
 print([True, False, True])
 
-# P7 Bloque 2
-# Realizado Por: Jesus Ismael Montantes Castillo 
-# Tipos de datos en las listas.
-# Fecha: 2024/30/10
+#P7 Bloque 2
+#Realizado Por: Jesus Ismael Montantes Castillo 
+#Tipos de datos en las listas.
+#Fecha: 2024/30/10
 
 cadenas = ["Juan","Pedro","Chuy"]
 print(cadenas)  # Muestra la lista completa
@@ -357,10 +358,10 @@ print(booleanos[0])
 print(type(booleanos))
 print(type(booleanos[0]))
 
-# P9 Bloque 2 
-# Igualdad en listas
-# Fecha: 31/10/24
-# Realizado por: Jesus Ismael Montantes Castillo
+#P9 Bloque 2 
+#Igualdad en listas
+#Fecha: 31/10/24
+#Realizado por: Jesus Ismael Montantes Castillo
 puntos=[10, 30, 20]
 puntos_2=[10,30,20]
 ordenados=[10,20,30]
@@ -377,20 +378,20 @@ print(puntos != puntos_2) # False
 print( puntos != ordenados) #True
 print( puntos != puntos_texto) # True
 
-# P10 Bloque 2
-# List Membership
-# Realizado por: Jesus Ismael Montantes Castillo
+#P10 Bloque 2
+#List Membership
+#Realizado por: Jesus Ismael Montantes Castillo
 nombres =["Choto", "Emilio", "Luis"]
 print("Luis" in nombres) # True
 print("Emi" in nombres ) # False
 print("Javier" in nombres) # False
 print("Jose" not in nombres)# True
 
-# P11 Bloque 2
-# Realizado por: Jesus Ismael Montantes Castillo
-# Appending to a list
-# Fecha: 31/10/2024
-# Realizado por: Jesus Ismael Montantes Castillo
+#P11 Bloque 2
+#Realizado por: Jesus Ismael Montantes Castillo
+#Appending to a list
+#Fecha: 31/10/2024
+#Realizado por: Jesus Ismael Montantes Castillo
 
 colores=["rojo", "azul"]
 print(colores)
@@ -400,10 +401,10 @@ print(colores)
 
 B3
 
-# P1 Bloque 3 
-# Introducción al ciclo "for"
-# Fecha: 2024/11/04
-# Realizado por: Jesus Ismael Montantes Castillo
+#P1 Bloque 3 
+#Introducción al ciclo "for"
+#Fecha: 2024/11/04
+#Realizado por: Jesus Ismael Montantes Castillo
 
 lista_num = [10, 30, 40, 20, 35, 80]
 print(lista_num[0])
@@ -416,27 +417,27 @@ print(lista_num[5])
 for i in lista_num:
     print(i)
 
-# P2 Bloque 3 
-# Nombres con ciclo for
-# Fecha: 2024/11/04
-# Realizado por: Jesus Ismael Montantes Castillo
+#P2 Bloque 3 
+#Nombres con ciclo for
+#Fecha: 2024/11/04
+#Realizado por: Jesus Ismael Montantes Castillo
 
 Nombres = ["Luis", "Chuy", "Mauricio"]
 for nombre in Nombres:
     print("El nombre es: ", nombre)
 
-# P3 Bloque 3 
-# FF (Frutas For)
-# Fecha: 22024/11/04
-# Realizado por: Jesus Ismael Montantes Castillo
+#P3 Bloque 3 
+#FF (Frutas For)
+#Fecha: 22024/11/04
+#Realizado por: Jesus Ismael Montantes Castillo
 frutas =["Manzana", "Piña","Platano"]
 for fruta in frutas:
     print("La fruta es:", fruta)
 
-# P4 Bloque 3  
-# Función Range
-# Fecha: 2024/11/04
-# Realizado por: Jesus Ismael Montantes Castillo
+#P4 Bloque 3  
+#Función Range
+#Fecha: 2024/11/04
+#Realizado por: Jesus Ismael Montantes Castillo
 print("Imprime los valores del 0 al 9")
 x = range(10)
 for num in x:
@@ -457,10 +458,10 @@ x3 = range(11,22,2)
 for num in x3:
     print(num)
 
-# P6 Bloque 3 
-# Froot Loops
-# Fecha: 2024/11/05
-# Realizado por: Jesus Ismael Montantes Castillo
+#P6 Bloque 3 
+#Froot Loops
+#Fecha: 2024/11/05
+#Realizado por: Jesus Ismael Montantes Castillo
 print("THE COUNT PATTERN")
 letras = ["a", "b", "c", "d", "e"]
 contador = 0 #Inicializar una variable
@@ -468,10 +469,10 @@ for letra in letras:
     contador = contador +1
     print("La lista \"letras\" tiene",contador, "letras")
 
-# P7 Bloque 3 
-# The sum Pattern
-# Fecha: 2024/11/05
-# Realizado por: Jesus Ismael Montantes Castillo
+#P7 Bloque 3 
+#The sum Pattern
+#Fecha: 2024/11/05
+#Realizado por: Jesus Ismael Montantes Castillo
 print("THE SUM PATTERN")
 numeros = [100,200,300,400]
 sumatoria = 0 # Inicialización
@@ -479,20 +480,20 @@ for numero in numeros:
     sumatoria = sumatoria + numero
 print("La sumatoria es:", sumatoria)
 
-# P8 Bloque 3  
-# THE ACCUMULATION PATTERN
-# Fecha: 2024/11/05
-# Realizado por: Jesus Ismael Montantes Castillo
+#P8 Bloque 3  
+#THE ACCUMULATION PATTERN
+#Fecha: 2024/11/05
+#Realizado por: Jesus Ismael Montantes Castillo
 palabras = ["Hoy"," ","hace"," ","frio"]
 mensaje = ""
 for palabra in palabras:
     mensaje = mensaje + palabra
     print(mensaje)
 
-# P9 Bloque 3  
-# Programa ue permita crear una lista de todos los numeros menores a 50
-# Fecha: 2024/11/06
-# Realizado por: Jesus Ismael Montantes Castillo
+#P9 Bloque 3  
+#Programa ue permita crear una lista de todos los numeros menores a 50
+#Fecha: 2024/11/06
+#Realizado por: Jesus Ismael Montantes Castillo
 
 print("THE FILTER PATTERN")
 numeros =[10,50,25,13,10,28,100,500,29,29]
@@ -507,9 +508,10 @@ print("La nueva lista es: ",menores_50)
 
 P10 Bloque 3
 #Pgrama que clasifica las edad de una lista en los sig grupos:
-# menores de 18, entre 18 y 65 y mayores de 65
+#menores de 18, entre 18 y 65 y mayores de 65
 #Fecha: 2024/11/07
 #Realizado por: Jesus Ismael Montantes Castillo
+
 edades = [10, 15, 18, 8, 36, 5, 67, 89 ,95, 43, 26, 10, 65, 55, 81, 90]
 menores_18 = [] # Lista vaciÃ¡ para menores de 18
 adultos = [] # Lista vaciÃ¡ para adultosentre 18 y 65
@@ -542,9 +544,9 @@ while i <= 10:
 print("Fin del programa")
 
 #P12 Bloque 3
-# Programa para demostrar el funcionamiento de los métodos upper() y lowe()
+#Programa para demostrar el funcionamiento de los métodos upper() y lowe()
 #Fecha: 2024/11/08
-# Realizado por: Jesus Ismael Montantes Castillo
+#Realizado por: Jesus Ismael Montantes Castillo
 
 # Definir cadena de texto.
 cadena = "Python es un lenguaje de programación"
@@ -554,10 +556,10 @@ print("\n", cadena_mayusculas)
 cadena_minusculas = cadena.lower() # Convierte la cadena a minusculas
 print("\n", cadena_minusculas)
 
-# P13 Bloque 3 
-# Programa que se repute hasta que ingrese la palabra "salir"
-# Fecha: 2024/11/08
-# Realizado por: Jesus Ismael Montantes Castillo
+#P13 Bloque 3 
+#Programa que se repute hasta que ingrese la palabra "salir"
+#Fecha: 2024/11/08
+#Realizado por: Jesus Ismael Montantes Castillo
 
 palabra =""
 while palabra != "salir":
@@ -567,3 +569,163 @@ while palabra != "salir":
 print("Fin del programa")
 
 B4
+
+#P4 Bloque 4
+#Fecha: 13/11/2024
+#Realizado por: Jesus Ismael Montantes Castillo 
+
+#Definicion de la funcion
+def saludar (nombre):
+    print(f"¡Hola, {nombre}!")
+
+#Llamar la Función
+saludar("Edgar")
+saludar("PEPE")
+saludar("Choto")
+
+#P5 Bloque 4
+#fecha: 2024/11/13
+#Realizado por: Jesus Ismael Montantes Castillo
+
+def saludar (nombre, edad):
+    print(f"¡Hola, {nombre}!")
+    print(f"Tienes {edad} años")
+    print('¡Espero que te encuentres bien!')
+
+#Llamar la Función
+saludar("Edgar", 26)
+saludar("PEPE", 18)
+saludar("Choto", 23)
+
+#P6 Bloque 4 
+#Crea una función dentro de un programa que imprima las sig operaciones
+#Fecha: 2024/11/14
+#Realizado por: Jesus Ismael Montantes Castillo 
+
+def operaciones(num1, num2, digitos):
+    suma = num1 + num2
+    resta = num1 - num2
+    multi = num1 * num2
+    div = (num1 / num2)
+    modulo = num1 % num2
+
+    print(f'La suma de {num1} + {num2} es: {suma}')
+    print(f'La resta de {num1} - {num2} es: {resta}')
+    print(f'La multiplicacion de {num1} * {num2} es: {multi}')
+    print(f'La división de {num1} / {num2} es: {div:.{digitos}}')
+    print(f'El modulo de {num1} % {num2} es: {modulo}')
+
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese elsegundo numero: "))
+digitos = int(input("Ingrese la cantidad de decimales mostrar en el modulo: ")) 
+operaciones(num1, num2, digitos)
+
+#P7 Bloque 4
+#Calculadora ciclo for
+#Fecha: 2024/14/11
+#Realizado por: Jesus Ismael Montantes Castrillo 
+
+def operaciones( num1, num2, digitos):
+    suma = num1 + num2
+    resta = num1 - num2
+    multi = num1 * num2
+    div = (num1 / num2)
+    modulo = num1 % num2
+    
+    print(f'La suma de {num1} + {num2} es: {suma}')
+    print(f'La resta de {num1} - {num2} es: {resta}')
+    print(f'La multiplicación de {num1} * {num2} es: {multi}')
+    print(f'La división de {num1} / {num2} es: {div:.{digitos}f}')
+    print(f'El modulo de {num1} % {num2} es: {modulo}')
+
+ciclo = int(input("Digite la cantidad de veces que desea ejecutar el programa: "))
+
+num1 = int(input("Digite el primer numero: "))
+num2 = int(input("Digite el segundo numero: "))
+digitos = int(input("Digite la cantidad de decimales a mostrar en la división: "))
+
+for _ in range(ciclo):
+    operaciones( num1, num2, digitos)
+    num1 = num1 * 2
+    num2 = num2 * 2
+    digitos = digitos * 2
+
+#P8 Bloque 4
+#Ciclo While
+#Fecha: 2024/11/14
+#Realizado por: Jesus Ismael Montantes Castillo
+
+def operaciones(num1, num2, digitos):
+    suma = num1 + num2
+    resta = num1 - num2
+    multi = num1 * num2
+    div = (num1 / num2)
+    modulo = num1 % num2
+
+    print(f'La suma de {num1} + {num2} es: {suma}')
+    print(f'La resta de {num1} - {num2} es: {resta}')
+    print(f'La multiplicacion de {num1} * {num2} es: {multi}')
+    print(f'La división de {num1} / {num2} es: {div:.{digitos}}')
+    print(f'El modulo de {num1} % {num2} es: {modulo}')
+
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese elsegundo numero: "))
+digitos = int(input("Ingrese la cantidad de decimales mostrar en el modulo: ")) 
+i = 0
+while i == 0:
+    operaciones(num1, num2, digitos)
+
+    num1 = num1 * 2
+    num2 = num2 * 2
+    digitos = digitos * 2
+    rep = input("Desea repetir el programa? (Digite 'salir' si no lo desea) ")
+    reps = rep.lower()
+    if reps == "salir":
+        i += 5
+
+#P9 Bloque 4 
+#Números Primos
+#Fecha: 2024/15/11
+#Realizado por: Jesus Ismael Montantes Castillo
+
+num = int(input("Digite un número entre 10 y 99: "))
+
+if num >= 10 and num <= 99:
+    for i in  range(2, num +1):
+        res= num % i
+        if res == 0:
+            print("Tu número no es un número primo")
+            break
+        else:
+            print("Tu número es un numero primo")
+            break
+    
+else:
+    print("Tu número no está entre 10 y 99")
+
+#P11 Bloque 4 
+#Números Primos con ciclo While
+#Fecha: 2024/15/11
+#Realizado por: Jesus Ismael Montantes Castillo
+
+def  primo(num):
+    if num >= 10 and num <= 99:
+        for i in  range(2, num +1):
+            res= num % i
+            if res == 0:
+                print("Tu número no es un número primo")
+                break
+            else:
+                print("Tu número es un numero primo")
+                break
+    
+    else:
+        print("Tu número no está entre 10 y 99")
+i = 0
+while i == 0:
+    num = int(input("Digite un numero entre 10 y 99: "))
+    primo(num)
+    rep = input("Desea repetir el programa? (Digite 'salir' si no lo desea) ")
+    reps = rep.lower()
+    if reps == "salir":
+        i += 5
