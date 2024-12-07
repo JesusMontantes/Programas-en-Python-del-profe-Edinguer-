@@ -1,0 +1,148 @@
+B2
+
+# P1 Bloque 2 
+# Mascotas
+# Fecha: 28/10/2024
+# Realizado por: Jesus Ismael Montantes castillo
+
+mascota= input("Ingresa el tipo de mascota que tienes: ")
+if "perro"in mascota:
+    print("Es un perro: ")
+elif "gato" in mascota:
+    print("Tienes un gato: ")
+else:
+    print("Tipo de mascota desconocida")
+    print("¡Gracias por usar nuestro programa!")
+
+# P2 Bloque 2
+# indique si, de 2 enteros ingresados el primero es mayor,igual o menos que el segundo
+# Fecha: 2024/10/28
+# Realizado por: Jesus Ismael Montantes Castillo
+
+n1 = int(input("Digite el primer numero en numeros enteros: "))
+n2 = int(input("Digite el segundo numero en numeros enteros: "))
+
+if n1 > n2:
+    print("El numero " +str(n1) + " es mayor al " +str(n2))
+elif n1 == n2:
+    print("Son numeros iguales")
+else:
+    print("El numero " +str(n1)+ " es menor al numero"+str(n2))
+
+    print("¡Gracias por usar nuestro programa!")
+
+# P3 Bloque 2 
+# Identificacion de tipos de datos, str, int y float
+# Fecha: 28/10/2024
+# Realizado por: Jesus Ismael Montantes Castillo
+Variable = input("Digite su edad: ")
+print(type(Variable))
+Variable = int (Variable) # Convierto la variable a tipo entero.
+Variable= float(Variable) # Convierto la variable a tipo flotante.
+print(type(Variable))
+
+# P4 Bloque 2 
+# calcule los impuestos que debe pagar un empleado
+# Fecha: 2024/10/29
+# Realizado  por: Jesus Ismael Montantes Castollo
+
+ingresos = input("¿Cuales son sus ingresos? ")
+ingresos = float(ingresos)
+if ingresos <=1000:
+    impuestos = ingresos * 0.05
+    print("Tus ingresos menos los impuestos son de "+str(impuestos))
+elif ingresos > 1000 and ingresos <=2500:
+    impuestos = ingresos * 0.08
+    print("Tus ingresos menos los impuestos son de "+str(impuestos))
+elif ingresos > 2500 and impuestos <= 6000:
+    print("Tus ingresos menos los impuestos son de "+str(impuestos))
+    impuestos= ingresos * 0.12
+else:
+    impuestos = ingresos * 0.15
+    salario_total = ingresos - impuestos
+    print("Tus impuestos son "+str(impuestos) + "y tu salario final es" +str(salario_total))
+
+# P5 Bloque 2
+# calcule el desempeño deun estudiante de acuerdo con su calificacion dada por el usuario
+# Fecha: 2024/10/29
+# Realizado: Jesus Ismael Montantes Castillo 
+calificacion = int(input("Digite su calificación en escala del 1 al 100: "))
+if calificacion <= 60 and calificacion <= 69: 
+    print("Su calificación es insuficiente")
+elif calificacion == 70 and calificacion <= 79: 
+    print("Su calificacion es suficiente")
+
+#P6 Bloque 2 
+#Tipos de listas de datos
+#Fecha: 2024/10/30
+#Realizado por: Jesus Ismael Montantes Castillo
+print("Lista de enteros")
+print([5.8,10])
+print("\nLista de textos")
+print(["Manzana","Piña", "Naranja"])
+print("\nLista de booleanos")
+print([True, False, True])
+
+# P7 Bloque 2
+# Realizado Por: Jesus Ismael Montantes Castillo 
+# Tipos de datos en las listas.
+# Fecha: 2024/30/10
+
+cadenas = ["Juan","Pedro","Chuy"]
+print(cadenas)  # Muestra la lista completa
+print(cadenas[1]) # Imprime "Pedro"
+print(type(cadenas)) # Imprime el tipo "list"
+print(type(cadenas[1])) # Imprime el tipo "str"
+
+enteros = [5, 4,8]
+print(enteros)
+print(enteros[0])
+print(type(enteros))
+print(type(enteros[0]))
+
+booleanos = [True, False, False]
+print(booleanos)
+print(booleanos[0])
+print(type(booleanos))
+print(type(booleanos[0]))
+
+# P9 Bloque 2 
+# Igualdad en listas
+# Fecha: 31/10/24
+# Realizado por: Jesus Ismael Montantes Castillo
+puntos=[10, 30, 20]
+puntos_2=[10,30,20]
+ordenados=[10,20,30]
+puntos_texto=["10,20,30"]
+print("COMPARACIÓN (==)")
+
+print(puntos == puntos_2) # True
+print(puntos == ordenados) # False
+print( puntos == puntos_texto ) # False
+
+print("AHORA COMPARAMOS CON !=")
+
+print(puntos != puntos_2) # False
+print( puntos != ordenados) #True
+print( puntos != puntos_texto) # True
+
+# P10 Bloque 2
+# List Membership
+# Realizado por: Jesus Ismael Montantes Castillo
+nombres =["Choto", "Emilio", "Luis"]
+print("Luis" in nombres) # True
+print("Emi" in nombres ) # False
+print("Javier" in nombres) # False
+print("Jose" not in nombres)# True
+
+# P11 Bloque 2
+# Realizado por: Jesus Ismael Montantes Castillo
+# Appending to a list
+# Fecha: 31/10/2024
+# Realizado por: Jesus Ismael Montantes Castillo
+
+colores=["rojo", "azul"]
+print(colores)
+colores.append("verde")
+print(colores)
+ #print(colores + "Amarillo") #ERROR
