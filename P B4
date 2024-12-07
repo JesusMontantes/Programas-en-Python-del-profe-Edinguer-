@@ -1,0 +1,161 @@
+B4
+
+#P4 Bloque 4
+#Fecha: 13/11/2024
+#Realizado por: Jesus Ismael Montantes Castillo 
+
+#Definicion de la funcion
+def saludar (nombre):
+    print(f"¡Hola, {nombre}!")
+
+#Llamar la Función
+saludar("Edgar")
+saludar("PEPE")
+saludar("Choto")
+
+#P5 Bloque 4
+#fecha: 2024/11/13
+#Realizado por: Jesus Ismael Montantes Castillo
+
+def saludar (nombre, edad):
+    print(f"¡Hola, {nombre}!")
+    print(f"Tienes {edad} años")
+    print('¡Espero que te encuentres bien!')
+
+#Llamar la Función
+saludar("Edgar", 26)
+saludar("PEPE", 18)
+saludar("Choto", 23)
+
+#P6 Bloque 4 
+#Crea una función dentro de un programa que imprima las sig operaciones
+#Fecha: 2024/11/14
+#Realizado por: Jesus Ismael Montantes Castillo 
+
+def operaciones(num1, num2, digitos):
+    suma = num1 + num2
+    resta = num1 - num2
+    multi = num1 * num2
+    div = (num1 / num2)
+    modulo = num1 % num2
+
+    print(f'La suma de {num1} + {num2} es: {suma}')
+    print(f'La resta de {num1} - {num2} es: {resta}')
+    print(f'La multiplicacion de {num1} * {num2} es: {multi}')
+    print(f'La división de {num1} / {num2} es: {div:.{digitos}}')
+    print(f'El modulo de {num1} % {num2} es: {modulo}')
+
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese elsegundo numero: "))
+digitos = int(input("Ingrese la cantidad de decimales mostrar en el modulo: ")) 
+operaciones(num1, num2, digitos)
+
+#P7 Bloque 4
+#Calculadora ciclo for
+#Fecha: 2024/14/11
+#Realizado por: Jesus Ismael Montantes Castrillo 
+
+def operaciones( num1, num2, digitos):
+    suma = num1 + num2
+    resta = num1 - num2
+    multi = num1 * num2
+    div = (num1 / num2)
+    modulo = num1 % num2
+    
+    print(f'La suma de {num1} + {num2} es: {suma}')
+    print(f'La resta de {num1} - {num2} es: {resta}')
+    print(f'La multiplicación de {num1} * {num2} es: {multi}')
+    print(f'La división de {num1} / {num2} es: {div:.{digitos}f}')
+    print(f'El modulo de {num1} % {num2} es: {modulo}')
+
+ciclo = int(input("Digite la cantidad de veces que desea ejecutar el programa: "))
+
+num1 = int(input("Digite el primer numero: "))
+num2 = int(input("Digite el segundo numero: "))
+digitos = int(input("Digite la cantidad de decimales a mostrar en la división: "))
+
+for _ in range(ciclo):
+    operaciones( num1, num2, digitos)
+    num1 = num1 * 2
+    num2 = num2 * 2
+    digitos = digitos * 2
+
+#P8 Bloque 4
+#Ciclo While
+#Fecha: 2024/11/14
+#Realizado por: Jesus Ismael Montantes Castillo
+
+def operaciones(num1, num2, digitos):
+    suma = num1 + num2
+    resta = num1 - num2
+    multi = num1 * num2
+    div = (num1 / num2)
+    modulo = num1 % num2
+
+    print(f'La suma de {num1} + {num2} es: {suma}')
+    print(f'La resta de {num1} - {num2} es: {resta}')
+    print(f'La multiplicacion de {num1} * {num2} es: {multi}')
+    print(f'La división de {num1} / {num2} es: {div:.{digitos}}')
+    print(f'El modulo de {num1} % {num2} es: {modulo}')
+
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese elsegundo numero: "))
+digitos = int(input("Ingrese la cantidad de decimales mostrar en el modulo: ")) 
+i = 0
+while i == 0:
+    operaciones(num1, num2, digitos)
+
+    num1 = num1 * 2
+    num2 = num2 * 2
+    digitos = digitos * 2
+    rep = input("Desea repetir el programa? (Digite 'salir' si no lo desea) ")
+    reps = rep.lower()
+    if reps == "salir":
+        i += 5
+
+#P9 Bloque 4 
+#Números Primos
+#Fecha: 2024/15/11
+#Realizado por: Jesus Ismael Montantes Castillo
+
+num = int(input("Digite un número entre 10 y 99: "))
+
+if num >= 10 and num <= 99:
+    for i in  range(2, num +1):
+        res= num % i
+        if res == 0:
+            print("Tu número no es un número primo")
+            break
+        else:
+            print("Tu número es un numero primo")
+            break
+    
+else:
+    print("Tu número no está entre 10 y 99")
+
+#P11 Bloque 4 
+#Números Primos con ciclo While
+#Fecha: 2024/15/11
+#Realizado por: Jesus Ismael Montantes Castillo
+
+def  primo(num):
+    if num >= 10 and num <= 99:
+        for i in  range(2, num +1):
+            res= num % i
+            if res == 0:
+                print("Tu número no es un número primo")
+                break
+            else:
+                print("Tu número es un numero primo")
+                break
+    
+    else:
+        print("Tu número no está entre 10 y 99")
+i = 0
+while i == 0:
+    num = int(input("Digite un numero entre 10 y 99: "))
+    primo(num)
+    rep = input("Desea repetir el programa? (Digite 'salir' si no lo desea) ")
+    reps = rep.lower()
+    if reps == "salir":
+        i += 5
